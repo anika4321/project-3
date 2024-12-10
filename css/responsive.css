@@ -1,0 +1,299 @@
+@media (min-width:992px) {
+    nav.navbar.shadow{
+        box-shadow: none !important;
+    }
+}
+@media (max-width:991px) {
+    .row>* {
+        margin-top: -15px;
+    }
+    #banner h4 {
+        font-weight: 500;
+        font-size: 15px;
+        padding-top: 25px;
+    }
+    #banner h1 {
+        font-size: 34px;
+        margin-top: 8px;
+        margin-bottom: 14px;
+    }
+    #banner p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 190%;
+    }
+    
+    .btn.btn-warning {
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 8px 20px 9px;
+    }
+    .btn.btn-outline {
+        font-size: 10px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        padding: 8px 7px 9px;
+    }
+    #banner .btn {
+        margin-top: 22px;
+    }
+    #banner .btn.btn-warning {
+        margin-right: 12px;
+    }
+    #banner .socialLink span {
+        font-size: 16px;
+        margin-right: 16px;
+    }
+    #banner .mouseIcon a {
+        margin-left: 0;
+        color: transparent;
+    }
+    /* content start */
+
+    #content h1 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    #content p {
+        font-size: 14px;
+        margin-bottom: 36px;
+    }
+    #content .btn.btn-outline {
+        font-size: 14px;
+        border: 1px solid #000;
+        border-radius: 15px;
+        padding: 11px 28px;
+    }
+    #content .container::before {
+        content: '';
+        width: 88px;
+        height: 87px;
+        background-image: linear-gradient(180deg, #52ab70 0%, rgba(82, 171, 112, 0.48) 100%);
+        border-radius: 100%;
+        position: absolute;
+        left: 250px;
+        top: -50px;
+    }
+    #content .container::after {
+        content: '';
+        width: 90px;
+        height: 100px;
+        background-color: #fff;
+        position: absolute;
+        left: 250px;
+        top: -100px;
+    }
+    /* content end */
+
+    /* #socialCard start */
+    #socialCard .card_one {
+        border-radius: 20px;
+        width: 343px;
+        height: 157px;
+        box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+        background: #fff;
+        margin-left: 24px;
+        margin-top: 15px;
+    }
+    #socialCard .card_one .cardImg {
+        margin: 26px;
+    }
+    #socialCard .card_one h1 {
+        position: absolute;
+        font-size: 14px;
+        text-align: right;
+        margin-top: -100px;
+        margin-left: 116px;
+    }
+    #socialCard .card_one p {
+        font-size: 12px;
+        text-align: left;
+        line-height: 174%;
+        position: absolute;
+        margin-top: -75px;
+        margin-left: 116px;
+    }
+    /* #socialCard end */
+
+    /* content_one start */
+
+    #content_one .image {
+        margin-left: 250px;
+    }
+    #content_one h1 {
+        font-size: 24px;
+        margin-top: 80px;
+    }
+    #content_one p {
+        font-size: 14px;
+        margin: 14px 0 23px 0;
+    }
+    #content_one .btn.btn-outline {
+        font-family: var(--font-family);
+        font-size: 14px;
+        border: none;
+        border-radius: none;
+        margin-bottom: 10px;
+       
+    }
+    #content_one .image_one {
+        position: absolute;
+        margin-left: 5px;
+        margin-top: -52px;
+    }
+    /* content_one end */
+    /* helpCenter start */
+
+    #helpCenter h1 {
+        font-size: 24px;
+        text-align: left;
+    }
+    #helpCenter p.text {
+        font-size: 15px;
+        text-align: left;
+        margin-top: 29px;
+        margin-bottom: 24px;
+    }
+    #helpCenter .number a.tag {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    #helpCenter .number a {
+        font-size: 24px;
+        margin-left: 67px;
+    }
+    #helpCenter .number p {
+        font-size: 10px;
+        margin-left: 133px;
+        margin-bottom: 38px;
+    }
+    #helpCenter .helpCenter_one {
+        background: #fff;
+        width: 343px;
+        height: 83px;
+        margin-bottom: 23px;
+    }
+    #helpCenter .helpCenter_one h4 {
+        font-size: 14px;
+        margin: 17px 133px 44px 105px;
+    }
+    #helpCenter .helpCenter_one p {
+        font-size: 11px;
+        margin: 40px 211px 20px 105px;
+    }
+
+    /* helpCenter end */
+    /* Wxperience start */
+
+    #Experience .container h1 {
+        font-size: 24px;
+    }
+    #Experience .container .one h1 {
+        font-size: 14px;
+        padding-bottom: 168px;
+        margin-right: 116px;
+        border-right: none;
+        border-bottom: 2px dashed #7a7a7a;
+        position: relative;
+        margin-left: 19px;
+    }
+    #Experience .container .one h1::before {
+        content: '';
+        position: absolute;
+        margin-top: 171px;
+        margin-left: 169px;
+    }
+    #Experience .container .one.another_color h1 {
+        margin-left: 6px;
+        padding-bottom: 167px;
+    }
+    #Experience .container .one h1::after {
+        content: '';
+        margin-top: 182px;
+        margin-left: 59px;
+    }
+    #Experience .container .one.another_color h1::after {
+        background-color: #FFD233;
+        margin-top: 181px;
+        margin-left: 72px;
+    }
+    #Experience .container .one p {
+        font-size: 12px;
+        position: absolute;
+        margin-top: -176px;
+        margin-left: 74px;
+    }
+    #Experience .container .one.another_color p {
+        margin-top: -173px;
+        margin-left: 75px;
+    }
+    #Experience .container .two h2 {
+        font-size: 14px;
+        margin-bottom: 16px;
+        position: absolute;
+        margin-top: -546px;
+        margin-left: 78px;
+    }
+    #Experience .container .two h3 {
+        position: absolute;
+        font-size: 14px;
+        margin-bottom: 109px;
+        margin-left: 73px;
+        margin-top: -489px;
+    }
+    #Experience .container .two h2.two_number{
+        position: absolute;
+        font-size: 14px;
+        margin-bottom: 109px;
+        margin-left: 74px;
+        margin-top: -330px;
+    }
+    #Experience .container .two h2.two_numberOne{
+        position: absolute;
+        font-size: 14px;
+        margin-bottom: 109px;
+        margin-left: 76px;
+        margin-top: -134px;
+    }
+    #Experience .container .two h2 {
+        font-size: 14px;
+        margin-bottom: 16px;
+        position: absolute;
+        margin-top: -509px;
+        margin-left: 74px;
+    }
+    #Experience .container .two p.two_number {
+        position: absolute;
+        font-size: 12px;
+        margin-bottom: 56px;
+        margin-left: 73px;
+        margin-top: -296px;
+    }
+    #Experience .container .two p.two_numberOne {
+        position: absolute;
+        font-size: 12px;
+        margin-bottom: 56px;
+        margin-left: 73px;
+        margin-top: -101px;
+    }
+    /* Wxperience end */
+
+    /* ExpertAreas start */
+
+    #ExpertAreas .container h1 {
+        font-size: 24px;
+        margin-top: 158px;
+        margin-bottom: 26px;
+    }
+    #ExpertAreas .container p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    #ExpertAreas .container .btn.btn-warning {
+        color: #5f5f5f;
+        background-image: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+        margin-bottom: -100px;
+        width: 365px;
+    }
+    /* ExpertAreas end */
+}
